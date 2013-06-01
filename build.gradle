@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testCompile 'org.mockito:mockito-all:1.9.5'
+  testCompile 'junit:junit:4.11'
+  testCompile 'org.powermock:powermock-mockito-release-full:1.5'
+}
